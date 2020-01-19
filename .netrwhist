@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/grant/dev/triple/my-app'
+let g:netrw_dirhist_6='/home/grant/dev/triple/my-app/src'
+let g:netrw_dirhist_5='/home/grant/dev/triple/my-app'
+let g:netrw_dirhist_4='/home/grant/dev/triple/my-app/src'
+let g:netrw_dirhist_3='/home/grant/dev/triple/my-app'
+let g:netrw_dirhist_2='/home/grant/dev/triple/my-app/src'
+let g:netrw_dirhist_1='/home/grant/dev/triple/my-app'
+let g:netrw_dirhist_0='/home/grant/dev/triple/my-app/src'
+let g:netrw_dirhist_9='/home/grant/dev/triple/my-app'
+let g:netrw_dirhist_8='/home/grant/dev/triple/my-app/src'
