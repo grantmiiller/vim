@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+git submodule init
+git submodule update
+
 VIMRC=~/.vimrc
 
 if [ ! -f "$VIMRC" ]; then
