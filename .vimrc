@@ -37,6 +37,9 @@ set splitright          " i like my new splits to the right
 " line of a window
 set ruler
 
+" So we can switch buffers without saving
+set hidden
+
 " Instead of failing a command because of unsaved changes, instead raise a
 " dialogue asking if you wish to save changed files.
 set confirm
@@ -80,12 +83,18 @@ nnoremap <Leader>tev :tabedit ~/.vimrc<Cr>
 " Edit vimrc in current tab (I use old vimrc instead of neovims)
 nnoremap <Leader>ev :edit ~/.vimrc<Cr>
 
+" Quick open for :Ex
+nnoremap <Leader>o :Ex<Cr>
+
 " List buffers
 nnoremap <Leader>l :ls<Cr>
+
 " Next buffer
-nnoremap <Leader>n :bn<Cr>
+nnoremap <Leader>bn :bn<Cr>
 " Previous buffer
-nnoremap <Leader>b :bp<Cr>
+nnoremap <Leader>bp :bp<Cr>
+" Close Buffer
+nnoremap <Leader>bd :bd<Cr>
 
 " END mapping land
 
